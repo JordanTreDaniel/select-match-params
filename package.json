@@ -1,7 +1,7 @@
 {
 	"name": "select-match-params",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Package that provides a `reselect` selector that will provide your `react-router` matchParams using the location from `connected-react-router`+`redux` ",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
