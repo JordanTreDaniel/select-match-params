@@ -12,6 +12,7 @@
 	"license": "ISC",
 	"dependencies": {
 		"connected-react-router": "^6.9.1",
+		"lodash": "^4.17.21",
 		"reselect": "^4.0.0"
 	},
 	"devDependencies": {

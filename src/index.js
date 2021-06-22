@@ -1,5 +1,11 @@
 import { createSelector } from 'reselect';
 import { createMatchSelector } from 'connected-react-router';
+import intersection from 'lodash/intersection';
+let paths = {};
+
+export const configurePaths = (pathsByKey) => {
+	paths = pathsByKey;
+};
 
 export const getCurrentPath = (state) => {
 	const { pathname } = state.router.location;
